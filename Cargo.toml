@@ -1,6 +1,6 @@
 [package]
 name = "mr-kd-tree-address-th"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "KD-tree reverse geocoding for Thailand subdistrict addresses (tambon/amphoe/province)"
 license = "MIT"
