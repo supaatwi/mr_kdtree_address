@@ -1,0 +1,13 @@
+[package]
+name = "mr-kd-tree-address-th"
+version = "0.1.0"
+edition = "2024"
+description = "KD-tree reverse geocoding for Thailand subdistrict addresses (tambon/amphoe/province)"
+license = "MIT"
+keywords = ["thailand", "geocoding", "kd-tree", "address", "geolocation"]
+categories = ["algorithms", "data-structures"]
+repository = "https://github.com/supaatwisetsud/mr-kd-tree-address-th"
+
+[dependencies]
+kdtree = "0.6"
+csv = "1"
