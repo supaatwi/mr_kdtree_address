@@ -1,6 +1,8 @@
-# mr-kd-tree-address-th
+# mr_kdtree_address
 
-Reverse geocoding for Thailand — finds nearest subdistrict (tambon/amphoe/province) from a lat/lng coordinate using a KD-tree.
+Reverse geocoding — finds nearest subdistrict (tambon/amphoe/province) from a lat/lng coordinate using a KD-tree.
+
+> **Currently supports Thailand (TH) only.**
 
 - 7,919 subdistrict points embedded at compile time (no runtime file I/O)
 - Index builds once on first call via `OnceLock`
@@ -10,13 +12,13 @@ Reverse geocoding for Thailand — finds nearest subdistrict (tambon/amphoe/prov
 
 ```toml
 [dependencies]
-mr-kd-tree-address-th = "0.1"
+mr_kdtree_address = "0.1"
 ```
 
 ## Usage
 
 ```rust
-use mr_kd_tree_address_th::{nearest, nearest_n};
+use mr_kdtree_address::{nearest, nearest_n};
 
 // nearest subdistrict
 let addr = nearest(13.7563, 100.5018).unwrap();

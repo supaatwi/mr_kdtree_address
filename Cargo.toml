@@ -1,12 +1,12 @@
 [package]
-name = "mr-kd-tree-address-th"
+name = "mr_kdtree_address"
 version = "0.1.1"
 edition = "2024"
 description = "KD-tree reverse geocoding for Thailand subdistrict addresses (tambon/amphoe/province)"
 license = "MIT"
 keywords = ["thailand", "geocoding", "kd-tree", "address", "geolocation"]
 categories = ["algorithms", "data-structures"]
-repository = "https://github.com/supaatwi/mr-kd-tree-address-th"
+repository = "https://github.com/supaatwi/mr_kdtree_address"
 readme = "README.md"
 
 [dependencies]
