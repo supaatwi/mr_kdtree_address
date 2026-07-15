@@ -6,7 +6,8 @@ description = "KD-tree reverse geocoding for Thailand subdistrict addresses (tam
 license = "MIT"
 keywords = ["thailand", "geocoding", "kd-tree", "address", "geolocation"]
 categories = ["algorithms", "data-structures"]
-repository = "https://github.com/supaatwisetsud/mr-kd-tree-address-th"
+repository = "https://github.com/supaatwi/mr-kd-tree-address-th"
+readme = "README.md"
 
 [dependencies]
 kdtree = "0.6"
